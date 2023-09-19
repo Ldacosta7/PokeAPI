@@ -48,7 +48,7 @@ body{
     text-transform: capitalize;
 }
 
-#button {
+.custom-button {
     background-color: #ff7a22;
     border-radius: 5px;
     color: white;
@@ -56,15 +56,20 @@ body{
     padding: 10px 30px;
     cursor: pointer;
     transition: all 0.2s ease;
+    
 }
 
-button:hover{
+.custom-button:hover {
     transform: translate(-2px);
     background-color: rgb(255, 136, 57);
 }
 
-#button:active{
+.custom-button:active {
     transform: translate(2px);
     background-color: #ff7a22;
-    
 }
+
+
+
+
+
