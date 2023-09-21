@@ -31,6 +31,7 @@ const shinyPokemon = () => {
         image.src = response.sprites.front_shiny;
     } 
     console.log(response.sprites.front_shiny);
+    console.log(response);
 }
 
 const normalPokemon = () => {
